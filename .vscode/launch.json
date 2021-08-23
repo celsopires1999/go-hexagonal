@@ -10,7 +10,12 @@
             "type": "go",
             "request": "launch",
             "mode": "auto",
-            "program": "/workspaces/hexagonal/adapters/db/product_test.go"
+            "program": "/workspaces/hexagonal/main.go",
+            // "args": ["cli", "-a=get", "--id=c87502c8-029b-48e3-83d9-0ed063b543db"]
+            // "args": ["cli", "-a=create", "-n=ProductDEB", "-p35.0"]
+            // "args": ["cli", "-a=enable", "--id=841cad44-3eb8-40ba-beb1-45fad94f3361"]
+            "args": ["http"]
+            
         }
     ]
 }
